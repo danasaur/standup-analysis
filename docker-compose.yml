@@ -5,7 +5,4 @@ services:
     build: .
     image: standup-analysis
     volumes:
-      - ./transcripts:/transcripts
-
-volumes:
-  transcripts:
+      - .:/code
