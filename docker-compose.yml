@@ -5,4 +5,6 @@ services:
     build: .
     image: standup-analysis
     volumes:
-      - .:/code
+      - ./notebooks:/home/jovyan
+    ports:
+      - "8888:8888"

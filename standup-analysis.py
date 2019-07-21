@@ -13,7 +13,7 @@ def mkdir_p(path):
 def main():
     print("hello world: executed function!")
     path = os.getcwd()
-    file_name = "test.txt"
+    file_name = "test2.txt"
     file_directory = "{0}/{1}/".format(path, "transcripts")
     file_path = "{0}{1}".format(file_directory, file_name)
     
