@@ -127,7 +127,7 @@ dmypy.json
 .pyre/
 
 # VS Code config
-.vscode
+.vscode/
 
 # Local files
 .DS_Store
